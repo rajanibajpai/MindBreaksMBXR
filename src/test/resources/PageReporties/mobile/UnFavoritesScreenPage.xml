@@ -1,0 +1,19 @@
+<objects>
+
+    <object name="Favorites" >
+        <android locatorType="xpath" locatorValue="//android.widget.Button[@text='favorites Favorites']" />
+        <ios locatorType="xpath" locatorValue="//XCUIElementTypeButton[@name='favorites Favorites']" />
+    </object>
+
+    <object name="LakesideSunsetHeartIcon" >
+        <android locatorType="xpath" locatorValue="//android.widget.Button[@text='Lakeside Sunset']//parent::android.view.View//android.widget.Image | //*[starts-with(@text,'lakeside_sunset')]//following-sibling::android.view.View//android.widget.Image" />
+        <ios locatorType="xpath" locatorValue="//XCUIElementTypeButton[@name='Lakeside Sunset']//parent:: XCUIElementTypeOther//XCUIElementTypeOther" />
+    </object>
+
+    <object name="Library" >
+        <android locatorType="xpath" locatorValue="//android.widget.Button[@text='library Library']" />
+        <ios locatorType="xpath" locatorValue="//XCUIElementTypeButton[@name='library Library']" />
+    </object>
+
+
+</objects>

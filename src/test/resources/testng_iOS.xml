@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Mobile_Test_Execution_Suite"  parallel="false" thread-count="5">
+    <listeners>
+        <listener class-name="com.impactqa.listeners.TestNGExecutionListener" />
+    </listeners>
+
+<!--    <test name="TC001_MB_MindBreaks_Test" >-->
+<!--        <parameter name="dataID" value="TC001_iOS"/>-->
+<!--        <classes>-->
+<!--            <class name="com.impactqa.test.mobile.TC001_MB_MindBreaks_Test"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="TC002_MB_Login_Local" >-->
+<!--        <parameter name="dataID" value="TC001_iOS"/>-->
+<!--        <classes>-->
+<!--            <class name="com.impactqa.test.mobile.TC002_MB_Login_Test"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <test name="TC003_MB_Favorites_test" >
+        <parameter name="dataID" value="TC001_iOS"/>
+        <classes>
+            <class name="com.impactqa.test.mobile.TC003_MB_Favorites_test"/>
+        </classes>
+    </test>
+
+    <test name="TC004_MB_UnFavorites_test" >
+        <parameter name="dataID" value="TC001_iOS"/>
+        <classes>
+            <class name="com.impactqa.test.mobile.TC004_MB_UnFavorites_test"/>
+        </classes>
+    </test>
+
+<!--    <test name="TC005_MB_Collections_test" >-->
+<!--        <parameter name="dataID" value="TC001_iOS"/>-->
+<!--        <classes>-->
+<!--            <class name="com.impactqa.test.mobile.TC005_MB_Collections_test"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="TC006_MB_Experiences_Escape_test" >-->
+<!--        <parameter name="dataID" value="TC001_iOS"/>-->
+<!--        <classes>-->
+<!--            <class name="com.impactqa.test.mobile.TC006_MB_Experiences_Escape_test"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="TC007_MB_Experiences_Meditate_test" >-->
+<!--        <parameter name="dataID" value="TC001_iOS"/>-->
+<!--        <classes>-->
+<!--            <class name="com.impactqa.test.mobile.TC007_MB_Experiences_Meditate_test"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="TC008_MB_Experiences_Energize_test" >-->
+<!--        <parameter name="dataID" value="TC001_iOS"/>-->
+<!--        <classes>-->
+<!--            <class name="com.impactqa.test.mobile.TC008_MB_Experiences_Energize_test"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="TC009_MB_Experiences_Rest_test" >-->
+<!--        <parameter name="dataID" value="TC001_iOS"/>-->
+<!--        <classes>-->
+<!--            <class name="com.impactqa.test.mobile.TC009_MB_Experiences_Rest_test"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="TC010_MB_Experiences_Focus_test" >-->
+<!--        <parameter name="dataID" value="TC001_iOS"/>-->
+<!--        <classes>-->
+<!--            <class name="com.impactqa.test.mobile.TC010_MB_Experiences_Focus_test"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="TC011_MB_Experiences_Inspire_test" >-->
+<!--        <parameter name="dataID" value="TC001_iOS"/>-->
+<!--        <classes>-->
+<!--            <class name="com.impactqa.test.mobile.TC011_MB_Experiences_Inspire_test"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--        <test name="TC012_MB_Experiences_Sub_Menu_test" >-->
+<!--            <parameter name="dataID" value="TC001_iOS"/>-->
+<!--            <classes>-->
+<!--                <class name="com.impactqa.test.mobile.TC012_MB_Experiences_Sub_Menu_test"/>-->
+<!--            </classes>-->
+<!--        </test>-->
+
+<!--        <test name="TC013_MB_Ui_Icon_Rail_Functionality_test" >-->
+<!--            <parameter name="dataID" value="TC001_iOS"/>-->
+<!--            <classes>-->
+<!--                <class name="com.impactqa.test.mobile.TC013_MB_Ui_Icon_Rail_Functionality_test"/>-->
+<!--            </classes>-->
+<!--        </test>-->
+
+<!--        <test name="TC014_MB_Experiences_Play_8_Mint_Track_test" >-->
+<!--            <parameter name="dataID" value="TC001_iOS"/>-->
+<!--            <classes>-->
+<!--                <class name="com.impactqa.test.mobile.TC014_MB_Experiences_Play_8_Mint_Track_test"/>-->
+<!--            </classes>-->
+<!--        </test>-->
+
+<!--    <test name="TC015_MB_Experiences_Play_25_Mint_Track_test" >-->
+<!--        <parameter name="dataID" value="TC001_iOS"/>-->
+<!--        <classes>-->
+<!--            <class name="com.impactqa.test.mobile.TC015_MB_Experiences_Play_25_Mint_Track_test"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="TC016_MB_Account_Creation_test" >-->
+<!--        <parameter name="dataID" value="TC001_iOS"/>-->
+<!--        <classes>-->
+<!--            <class name="com.impactqa.test.mobile.TC016_MB_Account_Creation_test"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+</suite>

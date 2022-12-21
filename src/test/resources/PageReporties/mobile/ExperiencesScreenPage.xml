@@ -1,0 +1,73 @@
+<objects>
+
+    <object name="Experiences" >
+        <android locatorType="xpath" locatorValue="//android.widget.Button[@text='experiences Experiences']" />
+        <ios locatorType="xpath" locatorValue="//XCUIElementTypeButton[@name='experiences Experiences']" />
+    </object>
+
+    <object name="Meditate" >
+        <android locatorType="xpath" locatorValue="//android.widget.Button[@text='Meditate Meditate']" />
+        <ios locatorType="xpath" locatorValue="//XCUIElementTypeButton[@name='Meditate Meditate']" />
+    </object>
+
+    <object name="Energize" >
+        <android locatorType="xpath" locatorValue="//android.widget.Button[@text='Energize Energize']" />
+        <ios locatorType="xpath" locatorValue="//XCUIElementTypeButton[@name='Energize Energize']" />
+    </object>
+
+    <object name="Rest" >
+        <android locatorType="xpath" locatorValue="//android.widget.Button[@text='Rest Rest']" />
+        <ios locatorType="xpath" locatorValue="//XCUIElementTypeButton[@name='Rest Rest']" />
+    </object>
+
+    <object name="Focus" >
+        <android locatorType="xpath" locatorValue="//android.widget.Button[@text='Focus Focus']" />
+        <ios locatorType="xpath" locatorValue="//XCUIElementTypeButton[@name='Focus Focus']" />
+    </object>
+
+    <object name="Inspire" >
+        <android locatorType="xpath" locatorValue="//android.widget.Button[@text='Inspire Inspire']" />
+        <ios locatorType="xpath" locatorValue="//XCUIElementTypeButton[@name='Inspire Inspire']" />
+    </object>
+
+    <object name="tracks" >
+        <android locatorType="xpath" locatorValue="" />
+        <ios locatorType="xpath" locatorValue="//XCUIElementTypeButton[@name='$$tracks$$']" />
+    </object>
+
+    <object name="allTracks" >
+        <android locatorType="xpath" locatorValue="" />
+        <ios locatorType="xpath" locatorValue="//XCUIElementTypeOther[@name='Darwin UX Engine']//child::XCUIElementTypeImage//parent::XCUIElementTypeOther//parent::XCUIElementTypeOther//child::XCUIElementTypeButton" />
+    </object>
+
+    <object name="minimizePlayer" >
+        <android locatorType="xpath" locatorValue="" />
+        <ios locatorType="xpath" locatorValue="//XCUIElementTypeImage[@name='Close']" />
+    </object>
+
+    <object name="ShowDetails" >
+        <android locatorType="xpath" locatorValue="" />
+        <ios locatorType="xpath" locatorValue="//XCUIElementTypeImage[@name='Show Details']" />
+    </object>
+
+    <object name="RateTrack" >
+        <android locatorType="xpath" locatorValue="" />
+        <ios locatorType="xpath" locatorValue="//XCUIElementTypeStaticText[@name='Rate this track']" />
+    </object>
+
+    <object name="RateAsFour" >
+        <android locatorType="xpath" locatorValue="" />
+        <ios locatorType="xpath" locatorValue="(//XCUIElementTypeOther[@name='Rate this track'])[2]/XCUIElementTypeOther/XCUIElementTypeButton[4]" />
+    </object>
+
+    <object name="selectDuration" >
+        <android locatorType="xpath" locatorValue="" />
+        <ios locatorType="xpath" locatorValue="//XCUIElementTypeStaticText[@name='25 min']" />
+    </object>
+
+    <object name="Done" >
+        <android locatorType="xpath" locatorValue="" />
+        <ios locatorType="xpath" locatorValue="//XCUIElementTypeButton[@name='Done']" />
+    </object>
+
+</objects>

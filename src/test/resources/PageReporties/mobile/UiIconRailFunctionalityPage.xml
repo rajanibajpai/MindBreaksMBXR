@@ -1,0 +1,88 @@
+<objects>
+
+    <object name="Favorites" >
+        <android locatorType="xpath" locatorValue="" />
+        <ios locatorType="xpath" locatorValue="//XCUIElementTypeButton[@name='favorites Favorites']" />
+    </object>
+
+    <object name="AllFavoriteTracks" >
+        <android locatorType="xpath" locatorValue="" />
+        <ios locatorType="xpath" locatorValue="//XCUIElementTypeOther[@name='Darwin UX Engine']//XCUIElementTypeImage" />
+    </object>
+
+    <object name="Tracks" >
+        <android locatorType="xpath" locatorValue="" />
+        <ios locatorType="xpath" locatorValue="//XCUIElementTypeOther[@name='Darwin UX Engine']//XCUIElementTypeImage//parent::XCUIElementTypeOther//parent::XCUIElementTypeOther//XCUIElementTypeButton" />
+    </object>
+
+    <object name="FavoritesPage" >
+        <android locatorType="xpath" locatorValue="" />
+        <ios locatorType="xpath" locatorValue="//XCUIElementTypeStaticText[@name='Favorites']" />
+    </object>
+
+    <object name="FeaturedPage" >
+        <android locatorType="xpath" locatorValue="" />
+        <ios locatorType="xpath" locatorValue="//XCUIElementTypeStaticText[@name='F']" />
+    </object>
+
+    <object name="Featured" >
+        <android locatorType="xpath" locatorValue="" />
+        <ios locatorType="xpath" locatorValue="//XCUIElementTypeButton[@name='featured Featured']" />
+    </object>
+
+    <object name="firstNewRelease" >
+        <android locatorType="xpath" locatorValue="" />
+        <ios locatorType="xpath" locatorValue="(//XCUIElementTypeStaticText[@name='New Releases']//parent:: XCUIElementTypeOther//following-sibling::XCUIElementTypeOther)[3]//XCUIElementTypeButton" />
+    </object>
+
+    <object name="firstRecentlyPlayed" >
+        <android locatorType="xpath" locatorValue="" />
+        <ios locatorType="xpath" locatorValue="(//XCUIElementTypeStaticText[@name='Recently Played']//parent:: XCUIElementTypeOther//following-sibling::XCUIElementTypeOther)[1]//XCUIElementTypeButton" />
+    </object>
+
+    <object name="minimizePlayer" >
+        <android locatorType="xpath" locatorValue="" />
+        <ios locatorType="xpath" locatorValue="//XCUIElementTypeImage[@name='Close']" />
+    </object>
+
+    <object name="Library" >
+        <android locatorType="xpath" locatorValue="" />
+        <ios locatorType="xpath" locatorValue="//XCUIElementTypeButton[@name='library Library']" />
+    </object>
+
+    <object name="LibraryExperiences" >
+        <android locatorType="xpath" locatorValue="" />
+        <ios locatorType="xpath" locatorValue="(//XCUIElementTypeButton[@name='experiences Experiences'])[1]" />
+    </object>
+
+    <object name="LibraryCollections" >
+        <android locatorType="xpath" locatorValue="" />
+        <ios locatorType="xpath" locatorValue="(//XCUIElementTypeButton[@name='collections Collections'])[1]" />
+    </object>
+
+    <object name="LibraryFilter" >
+        <android locatorType="xpath" locatorValue="" />
+        <ios locatorType="xpath" locatorValue="(//XCUIElementTypeButton[@name='filter Filter'])[1]" />
+    </object>
+
+    <object name="player" >
+        <android locatorType="xpath" locatorValue="" />
+        <ios locatorType="xpath" locatorValue="//XCUIElementTypeImage[@name='Play' or @name='Pause']//parent::XCUIElementTypeOther" />
+    </object>
+
+    <object name="Stats" >
+        <android locatorType="xpath" locatorValue="" />
+        <ios locatorType="xpath" locatorValue="//XCUIElementTypeButton[@name='stats Stats']" />
+    </object>
+
+    <object name="You" >
+        <android locatorType="xpath" locatorValue="" />
+        <ios locatorType="xpath" locatorValue="//XCUIElementTypeButton[@name='you You']" />
+    </object>
+
+    <object name="Achievements" >
+        <android locatorType="xpath" locatorValue="" />
+        <ios locatorType="xpath" locatorValue="//XCUIElementTypeButton[@name='achievements Achievements']" />
+    </object>
+
+</objects>

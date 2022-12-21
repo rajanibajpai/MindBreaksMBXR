@@ -1,0 +1,18 @@
+<objects>
+
+    <object name="Meditate" >
+        <android locatorType="xpath" locatorValue="//android.widget.Button[@text='Meditate Meditate']" />
+        <ios locatorType="xpath" locatorValue="//XCUIElementTypeButton[@name='Meditate Meditate']" />
+    </object>
+
+    <object name="tracks" >
+        <android locatorType="xpath" locatorValue="" />
+        <ios locatorType="xpath" locatorValue="//XCUIElementTypeButton[@name='$$tracks$$']" />
+    </object>
+
+    <object name="allTracks" >
+        <android locatorType="xpath" locatorValue="" />
+        <ios locatorType="xpath" locatorValue="//XCUIElementTypeOther[@name='Darwin UX Engine']//child::XCUIElementTypeImage//parent::XCUIElementTypeOther//parent::XCUIElementTypeOther//child::XCUIElementTypeButton" />
+    </object>
+
+</objects>

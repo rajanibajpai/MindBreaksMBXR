@@ -1,0 +1,48 @@
+<objects>
+
+    <object name="escape" >
+        <android locatorType="xpath" locatorValue="" />
+        <ios locatorType="xpath" locatorValue="//XCUIElementTypeButton[@name='escape Escape']" />
+    </object>
+
+    <object name="meditate" >
+        <android locatorType="xpath" locatorValue="" />
+        <ios locatorType="xpath" locatorValue="//XCUIElementTypeButton[@name='meditate Meditate']" />
+    </object>
+
+    <object name="energize" >
+        <android locatorType="xpath" locatorValue="" />
+        <ios locatorType="xpath" locatorValue="//XCUIElementTypeButton[@name='energize Energize']" />
+    </object>
+
+    <object name="rest" >
+        <android locatorType="xpath" locatorValue="" />
+        <ios locatorType="xpath" locatorValue="//XCUIElementTypeButton[@name='rest Rest']" />
+    </object>
+
+    <object name="focus" >
+        <android locatorType="xpath" locatorValue="" />
+        <ios locatorType="xpath" locatorValue="//XCUIElementTypeButton[@name='focus Focus']" />
+    </object>
+
+    <object name="inspire" >
+        <android locatorType="xpath" locatorValue="" />
+        <ios locatorType="xpath" locatorValue="//XCUIElementTypeButton[@name='inspire Inspire']" />
+    </object>
+
+    <object name="scrollMenu" >
+        <android locatorType="xpath" locatorValue="" />
+        <ios locatorType="xpath" locatorValue="//XCUIElementTypeOther[@name='Darwin UX Engine']/XCUIElementTypeOther/XCUIElementTypeOther[2]" />
+    </object>
+
+    <object name="scrollMenuDrag" >
+        <android locatorType="xpath" locatorValue="" />
+        <ios locatorType="xpath" locatorValue="(//XCUIElementTypeOther//XCUIElementTypeButton)[3]" />
+    </object>
+
+    <object name="scrollMenuDrop" >
+        <android locatorType="xpath" locatorValue="" />
+        <ios locatorType="xpath" locatorValue="(//XCUIElementTypeOther//XCUIElementTypeButton)[1]" />
+    </object>
+
+</objects>

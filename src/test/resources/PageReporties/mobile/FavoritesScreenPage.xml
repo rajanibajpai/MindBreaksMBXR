@@ -1,0 +1,21 @@
+<objects>
+    <object name="Escape" >
+        <android locatorType="xpath" locatorValue="//android.widget.Button[@text='Escape Escape'] | //android.widget.Image[@text='@escape@2x'] | //*[@class='card_select' and @title='Escape']" />
+        <ios locatorType="xpath" locatorValue="//*[starts-with(@name,'Escape')]" />
+    </object>
+
+    <object name="LakesideSunset" >
+        <android locatorType="xpath" locatorValue="//android.widget.Button[@text='Lakeside Sunset'] | //*[starts-with(@text,'lakeside_sunset')] | //*[text()='Lakeside Sunset']" />
+        <ios locatorType="xpath" locatorValue="//*[starts-with(@name,'Lakeside Sunset')]" />
+    </object>
+
+    <object name="LakesideSunsetHeartIcon" >
+        <android locatorType="xpath" locatorValue="//android.widget.Button[@text='Lakeside Sunset']//parent::android.view.View//android.widget.Image | //*[starts-with(@text,'lakeside_sunset')]//following-sibling::android.view.View//android.widget.Image | //*[text()='Lakeside Sunset']/ancestor::div[@class='gridlisttile']/child::div" />
+        <ios locatorType="xpath" locatorValue="//XCUIElementTypeButton[@name='Lakeside Sunset']//parent:: XCUIElementTypeOther//XCUIElementTypeOther" />
+    </object>
+
+    <object name="Favorites" >
+        <android locatorType="xpath" locatorValue="//android.widget.Button[@text='favorites Favorites'] | //*[@class='bottom nav_button' and @name='favorites']" />
+        <ios locatorType="xpath" locatorValue="//XCUIElementTypeButton[@name='favorites Favorites']" />
+    </object>
+</objects>

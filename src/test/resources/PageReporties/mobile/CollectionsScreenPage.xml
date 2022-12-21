@@ -1,0 +1,21 @@
+<objects>
+    <object name="collections" >
+        <android locatorType="xpath" locatorValue="" />
+        <ios locatorType="xpath" locatorValue="//XCUIElementTypeButton[@name='collections Collections']" />
+    </object>
+
+    <object name="allCardMenu" >
+        <android locatorType="xpath" locatorValue="" />
+        <ios locatorType="xpath" locatorValue="//XCUIElementTypeOther[@name='Darwin UX Engine']//XCUIElementTypeOther//XCUIElementTypeOther//XCUIElementTypeButton" />
+    </object>
+
+    <object name="cardMenu" >
+        <android locatorType="xpath" locatorValue="" />
+        <ios locatorType="xpath" locatorValue="//XCUIElementTypeButton[@name='$$cardMenu$$']" />
+    </object>
+
+    <object name="allAudioCards" >
+        <android locatorType="xpath" locatorValue="" />
+        <ios locatorType="xpath" locatorValue="//XCUIElementTypeOther[@name='Darwin UX Engine']//child::XCUIElementTypeImage" />
+    </object>
+</objects>

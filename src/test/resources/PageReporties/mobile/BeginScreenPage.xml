@@ -1,0 +1,11 @@
+<objects>
+	<object name="begin" >
+		<android locatorType="xpath" locatorValue="//*[@text='Begin']" />
+		<ios locatorType="xpath" locatorValue="(//*[@name='Begin'])[2]" />
+	</object>
+
+	<object name="register" >
+		<android locatorType="xpath" locatorValue="(//*[@text='Register'])[2]" />
+		<ios locatorType="xpath" locatorValue="(//*[@name='Register'])[1]" />
+	</object>
+</objects>
